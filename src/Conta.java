@@ -30,7 +30,7 @@ public class Conta {
         return this.numero;
     }
     public void setNumero(int numero){
-        this.numero = numero;
+            this.numero = numero;
     }
     public int getAgencia(){
         return this.agencia;
@@ -44,5 +44,5 @@ public class Conta {
     public Cliente getTitular(){
         return this.titular;
     }
-    
+
 }

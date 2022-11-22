@@ -1,10 +1,10 @@
 public class Cliente {
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
@@ -24,7 +24,7 @@ public class Cliente {
         this.profissao = profissao;
     }
 
-    private int cpf;
+    private String cpf;
     private String nome;
     private String profissao;
 
